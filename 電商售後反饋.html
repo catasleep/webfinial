@@ -1,0 +1,250 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title> 售後反饋</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <div class=" p-3 my-2 bg-secondary text-white border-primary">
+        <h1>顧客服務信箱</h1>
+    </div>
+    <div class="col-sm-6 text-info" style="background-color: white; ">
+        <h5>感謝您對XXX的愛護與支持，XXX始終以服務力NO.1自我要求</h5>
+    </div>
+    <div class="col-sm-6">
+        <h6>
+            <small>當您有任何問題，建議您可先參考網站上的常見問題，其中包含：消費者、加盟者、投資人、合作廠商、學生、求職者。若您看過常見問題後仍有其他疑問，請使用下方表格提供我們您寶貴的意見，客服中心將儘速回覆。農曆春節以及連續假日期間，無法立即回覆問題，敬請見諒。</small>
+        </h6>
+    </div>
+
+    <div class="col-sm-4">
+        <label for="main" class="form-label">主旨</label>
+        <input type="text" class="form-control" id="main" placeholder="主旨">
+    </div>
+    <div class="col-sm-4 my-3">
+        <p>請選擇您的問題:</p>
+        <div class="form-check-inline">
+            <label class="form-choose">
+                <input type="checkbox" class="form-check-input" id="cho1" value="">消費意見
+            </label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-choose">
+                <input type="checkbox" class="form-check-input" id="cho2" value="">網站意見
+            </label>
+        </div>
+        <div class="form-check-inline">
+            <label class="form-choose">
+                <input type="checkbox" class="form-check-input" id="cho3" value="">其他
+            </label>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <label for="exampleFormControlInput1" class="form-label">電子郵件</label>
+        <input type="email" class="form-control" id="mailin" placeholder="name@example.com">
+    </div>
+    <div class="col-sm-4">
+        <label for="exampleFormControlInput1" class="form-label">姓名</label>
+        <input type="text" class="form-control" id="namein" placeholder="请输入名字">
+    </div>
+    <div class="col-sm-4">
+        <label for="exampleFormControlInput1" class="form-label">電話</label>
+        <input type="text" class="form-control" id="phonein" placeholder="XX-XXXXXXXX or XX-XXXXXXX">
+    </div>
+    <div class="col-sm-4 my-3">
+        <label for="exampleFormControlInput1" class="form-label">發生時間</label>
+        <select name="ddlYear" id="ddlYear">
+            <option selected="selected" value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+
+        </select>
+        年
+        <select name="ddlMonth" id="ddlMonth">
+            <option selected="selected" value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+
+        </select>
+        月
+        <select name="ddlDay" id="ddlDay">
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option selected="selected" value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+
+        </select>
+        日
+        <select name="ddlHour" id="ddlHour">
+            <option value="00">00</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option selected="selected" value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+
+        </select>
+        時
+        <select name="ddlMinute" id="ddlMinute">
+            <option value="00">00</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+            <option value="32">32</option>
+            <option value="33">33</option>
+            <option value="34">34</option>
+            <option selected="selected" value="35">35</option>
+            <option value="36">36</option>
+            <option value="37">37</option>
+            <option value="38">38</option>
+            <option value="39">39</option>
+            <option value="40">40</option>
+            <option value="41">41</option>
+            <option value="42">42</option>
+            <option value="43">43</option>
+            <option value="44">44</option>
+            <option value="45">45</option>
+            <option value="46">46</option>
+            <option value="47">47</option>
+            <option value="48">48</option>
+            <option value="49">49</option>
+            <option value="50">50</option>
+            <option value="51">51</option>
+            <option value="52">52</option>
+            <option value="53">53</option>
+            <option value="54">54</option>
+            <option value="55">55</option>
+            <option value="56">56</option>
+            <option value="57">57</option>
+            <option value="58">58</option>
+            <option value="59">59</option>
+
+        </select>
+        分
+    </div>
+    <div class="col-sm-4">
+        <label for="exampleFormControlInput1" class="form-label">地點或店名</label>
+        <input type="text" class="form-control" id="wherein">
+    </div>
+    <div class="col-sm-4">
+        <label for="commoent" class="form-label">內容</label>
+        <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+    <div class="form-check-inline col-sm-4 p-3 my-3">
+        <h6>
+            <small>請詳細閱讀<a href="#">告知事項</a></small>
+        </h6>
+        <label class="form-choose col-sm-6">
+            <input type="checkbox" class="form-check-input" id="choend" value="">我已閱讀並了解
+        </label>
+        <button type="button" class="btn btn-success">送出</button>
+    </div>
+
+    <p class='show'></p>
+
+    <script>
+        var button = document.querySelector('.btn-success');
+        var showtxt = document.querySelector('.show');
+        function popup2(e) {
+            window.alert('資料已送出');
+        };
+        button.addEventListener('click', popup2);
+    </script>
+
+</body>
+
+</html>
+
